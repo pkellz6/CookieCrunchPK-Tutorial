@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-enum CookieType: Int {
+enum CookieType: Int, CustomStringConvertible {
     case Unknown = 0, Croissant, Cupcake, Danish, Donut, Macaroon, SugarCookie
     
     var spriteName: String {
@@ -30,9 +30,13 @@ enum CookieType: Int {
     static func random() -> CookieType {
         return CookieType(rawValue: Int(arc4random_uniform(6)) + 1)!
     }
+    
+    var description: String {
+        return spriteName
+    }
 }
 
-class Cookie {
+class Cookie: CustomStringConvertible {
     var column: Int
     var row: Int
     let cookieType: CookieType
@@ -43,4 +47,9 @@ class Cookie {
         self.row = row
         self.cookieType = cookieType
     }
+    
+    var description: String {
+        return "type:\(cookieType) square:(\(column),\(row))"
+    }
 }
+
