@@ -15,6 +15,7 @@
 		439B0F771C814E5900DB38B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439B0F751C814E5900DB38B6 /* LaunchScreen.storyboard */; };
 		439B0F811C814F5D00DB38B6 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 439B0F801C814F5D00DB38B6 /* Sprites.atlas */; };
 		439B0F831C81575600DB38B6 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B0F821C81575600DB38B6 /* Cookie.swift */; };
+		439B0F851C81F63200DB38B6 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B0F841C81F63200DB38B6 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		439B0F781C814E5900DB38B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439B0F801C814F5D00DB38B6 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		439B0F821C81575600DB38B6 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		439B0F841C81F63200DB38B6 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				439B0F821C81575600DB38B6 /* Cookie.swift */,
+				439B0F841C81F63200DB38B6 /* Array2D.swift */,
 				439B0F671C814E5900DB38B6 /* CookieCrunch */,
 				439B0F661C814E5900DB38B6 /* Products */,
 			);
@@ -149,6 +152,7 @@
 				439B0F831C81575600DB38B6 /* Cookie.swift in Sources */,
 				439B0F6F1C814E5900DB38B6 /* GameViewController.swift in Sources */,
 				439B0F691C814E5900DB38B6 /* AppDelegate.swift in Sources */,
+				439B0F851C81F63200DB38B6 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
