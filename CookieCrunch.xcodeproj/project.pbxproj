@@ -14,6 +14,7 @@
 		439B0F741C814E5900DB38B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439B0F731C814E5900DB38B6 /* Assets.xcassets */; };
 		439B0F771C814E5900DB38B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439B0F751C814E5900DB38B6 /* LaunchScreen.storyboard */; };
 		439B0F811C814F5D00DB38B6 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 439B0F801C814F5D00DB38B6 /* Sprites.atlas */; };
+		439B0F831C81575600DB38B6 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439B0F821C81575600DB38B6 /* Cookie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		439B0F761C814E5900DB38B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		439B0F781C814E5900DB38B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439B0F801C814F5D00DB38B6 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		439B0F821C81575600DB38B6 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		439B0F5C1C814E5900DB38B6 = {
 			isa = PBXGroup;
 			children = (
+				439B0F821C81575600DB38B6 /* Cookie.swift */,
 				439B0F671C814E5900DB38B6 /* CookieCrunch */,
 				439B0F661C814E5900DB38B6 /* Products */,
 			);
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				439B0F6D1C814E5900DB38B6 /* GameScene.swift in Sources */,
+				439B0F831C81575600DB38B6 /* Cookie.swift in Sources */,
 				439B0F6F1C814E5900DB38B6 /* GameViewController.swift in Sources */,
 				439B0F691C814E5900DB38B6 /* AppDelegate.swift in Sources */,
 			);
